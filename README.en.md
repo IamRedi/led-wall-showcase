@@ -14,7 +14,6 @@ LED Wall is the second device of the HUGO family: [HUGO](https://github.com/IamR
 
 The phone image is a screenshot of the UI served by the real device. The LED images are exact frames from the firmware code (`tests/capture_v41_frames.sh`, drawn as LEDs by `tools/render_frames.py`), not photos of the wall.
 
-
 > **Evidence and limitations:** The published snapshot was verified using host-based tests without a connected ESP32 or physical LEDs. Operation of the physical LED wall is based on the author's records; formal electrical measurement and acceptance are still outstanding. [Verification record (German)](EVIDENCE.md).
 
 ## At a glance
