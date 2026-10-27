@@ -1,0 +1,14 @@
+{
+  "device_url": "http://led-wall.local",
+  "mqtt_host": "homeassistant.local",
+  "mqtt_port": 1883,
+  "mqtt_username": "ledwall-adapter",
+  "mqtt_password": "REPLACE-WITH-REAL-PASSWORD",
+  "discovery_enabled": true,
+  "discovery_prefix": "homeassistant",
+  "topic_prefix": "ledwall",
+  "poll_interval_s": 5,
+  "device_timeout_s": 3,
+  "keepalive_s": 30,
+  "log_level": "INFO"
+}

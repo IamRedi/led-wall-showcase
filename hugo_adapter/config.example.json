@@ -1,0 +1,6 @@
+{
+  "device_url": "http://led-wall.local",
+  "device_timeout_s": 3.0,
+  "capability_ttl_s": 5,
+  "log_level": "INFO"
+}

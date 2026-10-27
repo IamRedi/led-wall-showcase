@@ -1,0 +1,57 @@
+# --- PlatformIO (future firmware work; none exists yet) ---
+.pio/
+.pioenvs/
+.piolibdeps/
+.platformio/
+
+# --- Firmware secrets (never commit real credentials) ---
+include/secrets.h
+include/*secrets*.h
+!include/*secrets.example.h
+
+# --- HA adapter runtime config (broker credentials; example only is tracked) ---
+ha_adapter/config.json
+
+# --- HUGO DeviceAdapter runtime config (no credentials in v1; runtime state
+#     stays out of the repository; example only is tracked) ---
+hugo_adapter/config.json
+
+# --- Build artifacts / toolchains ---
+build/
+dist/
+*.elf
+*.bin.map
+compile_commands.json
+
+# --- Python tooling (governance scripts, tests) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node tooling (future web UI work) ---
+node_modules/
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Local agent state ---
+.claude/
+
+# Private source-publication hygiene
+.env
+.env.*
+!.env.example
+*.bin
+*.elf
+*.map
