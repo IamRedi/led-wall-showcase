@@ -10,7 +10,7 @@ Was für diese öffentliche Fassung am 27.10.2026 tatsächlich ausgeführt wurde
 | `tests/capture_v41_frames.sh`: Frames aus den echten Renderern | Pong, Tail-Tennis, Feuerwerk, Pixel erzeugt; Bilder in `docs/assets/frames` |
 | Secret-Scan, gitleaks 8.28 über alle Dateien | keine Funde |
 | Suche nach privaten Daten (Netzadressen, MAC, Pfade, E-Mail) | nur noch Platzhalter |
-| Firmware-Build mit PlatformIO | hier nicht möglich (Paketquellen im Container gesperrt); läuft in GitHub Actions |
+| Firmware-Build mit PlatformIO (GitHub Actions, `espressif32@6.10.0`) | beide Varianten bauen: `esp32_eq` und `esp32_eq_ds4` (DS4: 1.303.577 B Flash, 99,5 % der App-Partition; RAM 35,5 %) |
 
 ## Aus den privaten Entwicklungsunterlagen (hier nicht nachgeprüft)
 
