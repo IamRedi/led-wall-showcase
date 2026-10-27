@@ -40,4 +40,5 @@ Die Arbeit lief in nummerierten Aufgaben mit Übergabe, Nachweisen, unabhängige
 - Private Netzadressen durch Platzhalter (`192.168.1.x`) ersetzt, lokale Pfade durch `~/`.
 - `tests/test_render_animations.cpp`: `std::sinf` durch `std::sin` ersetzt (g++ 13 kennt `std::sinf` nicht; das Ergebnis ist gleich).
 - `tests/capture_v41_frames.sh`: fehlende Quelldatei `body_topology.cpp` ergänzt, Ziel nach `docs/assets/frames`.
+- `firmware/platformio.ini`: Plattform auf `espressif32@6.10.0` festgelegt (Arduino-Core 2.0.17, wie im privaten Build), damit der Build in GitHub Actions reproduzierbar ist.
 - Neu: `tools/render_frames.py`, Bilder in `docs/assets`, diese Dokumente, LICENSE, SECURITY.md, CI mit gitleaks.
