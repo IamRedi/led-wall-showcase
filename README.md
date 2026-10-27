@@ -14,6 +14,9 @@ LED Wall ist das zweite Gerät der HUGO-Familie: [HUGO](https://github.com/IamRe
 
 Das Handy-Bild ist ein Screenshot der Oberfläche, die das echte Gerät ausgeliefert hat. Die LED-Bilder sind exakte Frames aus dem Firmware-Code (`tests/capture_v41_frames.sh`, als LEDs gezeichnet mit `tools/render_frames.py`), keine Fotos der Wand.
 
+
+> **Nachweisstand und Grenzen:** Die veröffentlichte Fassung wurde mit Host-Tests ohne angeschlossenen ESP32 oder LEDs geprüft. Der Betrieb der physischen LED-Wand beruht auf Angaben des Autors; eine formale elektrische Messprüfung steht noch aus. [Prüfprotokoll](EVIDENCE.md).
+
 ## Auf einen Blick
 
 | | |
